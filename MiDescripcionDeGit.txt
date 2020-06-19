@@ -1,0 +1,7 @@
+Git es un controlador de versiones: Una herramienta que nos ayuda a tener un historial de cualquier proyecto que se nos ocurra, de ese modo 
+si sucede que en la ultima version de la historia no nos convence del todo, se puede regresar facilmente a una donde estemos mas contentos 
+con el proyecto, este tambien sirve no solo para que una persona maneje la historial, si no que tambien otros manipulen esta linea que es el historial.
+
+Como lo veo yo: "Git nos brinda la capacidad de trabajar mas como una colmena donde todos podemos trabajar con conocimiento que no precisamente 
+tuvimos que obtener nosotros individualmente, si no que alguien mas lo logro y luego lo compartio, y de ese modo se puede tener el acceso, 
+claro esta que tiene sus restricciones para que no se vea comprometido todo el sistema en caso de que algo falle".

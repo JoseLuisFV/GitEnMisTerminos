@@ -1,0 +1,24 @@
+El flujo de trabajo de git inicial es medianamente sencillo se divide en tres, el directorio donde vamos a trabajar, en el staging
+y el directorio de git.
+
+El primero como podemos imaginar es donde siempre bajos a poder trabajar de manera un poco mas libre donde podemos estar haciendo 
+sin tener que comprometer nuestro trabajo en caso de que el resultado final de nuestro trabajo no nos "agrada".
+
+El segundo funbciona como una memoriatemporal, donde podemos ir guardando los pequenos cambios que no convencen que podrian ir al
+directorio de git, lo guardado aquie no es de manipulacion ya que aqui se hacen solo updates, pero tambien podemos elimiar lo colocado
+alli si se nos ocurrio un mejor enfoque.
+
+El tercero no solamente almacena nuestro trabajo final, si no que es un historial de nuestro trabajop final, y podemos viajar en el 
+tiempo, eso es sorprendente no, podemos regresar a versiones que alguna vez fueron la final
+
+"reglas"
+
+- No se deberia o puede pasar de la "area de manipulacion" a "directorio de git"
+- Para pasar del "area de manipulacion" a "staging" se hace "git add |elemento para hacer add|"
+- Para pasar del "staging" a "directorio git" se  hace "git commit -m |descripcion del commit|"
+- Para eliminar lo que eesta en staging se hace "git rm |elemento a remover|"
+- Para ver el status es "git status"
+- Para ver el historial de "Directorio git" es "git log |elemento a ver historial|"
+
+Por tales motivos digo que funciona como una colmena, pero tambien puede ver lo como una planta donde si le cortas una hoja no necesariamente muere o afecta 
+gravemente a la vida de dicha planta
