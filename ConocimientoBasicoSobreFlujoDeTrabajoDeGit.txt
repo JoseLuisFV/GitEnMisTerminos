@@ -56,3 +56,22 @@ dos registros mas actuales empleamos el comando "git show"
 libre de nuestra eleccion utilizamos el commando "git diff [commitA commitB]"
 donde por sugerencia el commitA tiene que ser el mas antiguo y
 el commitB tienes que ser el mas reciente
+
+
+Moverse en el tiempo y revertir
+
+Como se menciono antes en la primera impresion donde git se asemeja a un tipo de mente colectiva
+donde todos pueden ingresar sus conocimientos, la cual primero se trata de revisar bien antes de
+transmitila, de tal modo que todo siga mejorando, a pesar de que esto es asi habra veces que tal
+vez la contruccion por llamarlo de una manera no necesarimente sea la mejor, me refiero a que cada
+vez mas se complica agregarle mejorias, o incluso, hay algun aspecto en si que esta causando,
+que la mente(el software) se rompa por completo, en ese caso tenemos varias maneras de regresar a
+la mente en un estado donde todo siguia siendo facil de trabajar, o donde todo funcionaba correctamente
+para eso tenemos varios comandos
+
+- Si queremos volver temporalmente sin afectar en primera instancia a la mente principal se tiene
+el comando "git checkout [identificador del commit] [Nombre de que archivo del cual cambiaremos la version]"
+este comando te trae al working directory la version del commit del archivo en especifico y posiciona el
+HEAD en ese commit, mientras todo lo demas sigue igual, por consecuente si damos un git status veremos que
+marca que el archivo en cuestion dice que tiene cambios, y si al final queremos que esa version ya sea
+la mas nueva solo hace falta
