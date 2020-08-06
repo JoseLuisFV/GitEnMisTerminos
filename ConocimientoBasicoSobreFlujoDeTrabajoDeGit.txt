@@ -17,9 +17,42 @@ y podemos viajar en el tiempo, eso es sorprendente no, podemos regresar a versio
 - No se deberia o puede pasar de la "area de manipulacion" a "directorio de git"
 - Para pasar del "area de manipulacion" a "staging" se hace "git add |elemento para hacer add|"
 - Para pasar del "staging" a "directorio git" se  hace "git commit -m |descripcion del commit|"
-- Para eliminar lo que esta en staging se hace "git rm --cached |elemento a remover|"
+- Para eliminar lo que esta en staging se hace "git rm --cached |elemento a remover|" (esto no elimina los cambios
+de la area de manipulacion)
 - Para ver el status es "git status"
 - Para ver el historial de "Directorio git" es "git log |elemento a ver historial|"
 
 Por tales motivos digo que funciona como una colmena, pero tambien puedes verlo como una planta donde si le cortas
 una hoja no necesariamente muere o afecta gravemente a la vida de dicha planta
+
+Configuracion
+
+Por defecto en git con windos no esta configurado
+
+- Para ver todos los comandos de configuraciones se usa el comando "git config"
+- si usamos el comandon "git config --list" veremos las configuraciones por defecto
+- Con "git config --list --show-origin" se va a poder ver la ubicacion de me memoriatempora donde esta aguardados
+los comando
+
+- Con "git config --global user.name "Jose Luis" " vamos a asginar globalmente a git un nombre de usuario
+- Con "git config --global user.email "josefvacio@gmail.com" " vamos a asginar globalmente a git un correo de usuario
+
+
+Historial
+
+Como dijimos en git se guarda todo lo que en algun momento las versiones a las cuales les aplicamos un commit
+lo  cual es importante para iniciar una ruta donde podamos experimentar e intentar realizar una mejor
+solucion para que un problema que ya este solucionado, y mientras se experimenta, no romper el
+codigo ya hecho con los experimentos, tambien funciona por si se hizo algun cambio, y se ocasiono un bug
+y damos un retroceso hasta tal punto donde no se genero, y de esa manera con este historial, se puede
+utilizar para comparar y trabajar mas rapido
+
+- Para ver el historial del todo los cambios usamos el comando
+"git log", el cual mostrara el commit con su serie de numeros, el autor
+la fecha y la descripcion que se le dio al commit
+- Para obtener una comparativa entre los cambios hechos entre los
+dos registros mas actuales empleamos el comando "git show"
+- Se queremos hacer lo mismo que el anterior pero con registros
+libre de nuestra eleccion utilizamos el commando "git diff [commitA commitB]"
+donde por sugerencia el commitA tiene que ser el mas antiguo y
+el commitB tienes que ser el mas reciente
