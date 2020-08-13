@@ -1,3 +1,24 @@
+.cabecera{
+  width: 850px;
+  margin: auto;
+  text-align: left;
+  font-size: 40px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  background-color: #252c59;
+  border-radius: 15px;
+  padding: 20px;
+  color: #c76b4a;
+  font-family: sans-serif;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.cabecera span{
+  text-align: right;
+  display: block;
+  font-size: 30px;
+  text-transform: capitalize;
+}
 .section-git-ramas{
   width: 850px;
   margin: auto;
