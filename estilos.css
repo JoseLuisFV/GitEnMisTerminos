@@ -1,8 +1,11 @@
 .section-git-ramas{
   width: 850px;
-  height: 700px;
   margin: auto;
-  background-color: grey;
+  background-color: rgba(0,0,0,0.75);
+  line-height: 1.2;
+  font-family: curier;
+  font-size: 18px;
+  border-radius: 15px;
 }
 
 .section-git-ramas__titulo{
@@ -10,8 +13,26 @@
   text-align: center;
   font-size: 35px;
   line-height: 1.5;
+  box-shadow: 0px 0px 3px 0px #000000;
 }
 
-.section-git-ramas{
+.section-git-ramas__caja{
+  display: block;
+}
+.section-git-ramas__caja-contenido__master-article{
+  margin: 40px;
+  color: rgba(240, 240, 240, 1);
+}
+.section-git-ramas__caja-contenido__otrarama-article__titulo{
+  text-transform: capitalize;
+}
 
+.section-git-ramas__caja-contenido__otrarama-article{
+  margin: 40px;
+  color: rgba(240, 240, 240, 1);
+  padding-bottom: 40px;
+}
+
+.section-git-ramas__caja-contenido__master-article__titulo{
+  text-transform: capitalize;
 }
