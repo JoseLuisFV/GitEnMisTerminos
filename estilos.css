@@ -1,0 +1,17 @@
+.section-git-ramas{
+  width: 850px;
+  height: 700px;
+  margin: auto;
+  background-color: grey;
+}
+
+.section-git-ramas__titulo{
+  background-color: white;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1.5;
+}
+
+.section-git-ramas{
+
+}
