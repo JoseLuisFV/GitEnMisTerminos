@@ -1,6 +1,13 @@
+
+*{
+  box-sizing: border-box;
+}
+
 .cabecera{
+
   width: 850px;
   margin: auto;
+
   text-align: left;
   font-size: 40px;
   line-height: 1.5;
@@ -21,7 +28,7 @@
 }
 .section-git-ramas{
   width: 850px;
-  margin: auto;
+  margin: 35px auto;
   background-color: rgba(0,0,0,0.75);
   line-height: 1.2;
   font-family: sans-serif;
@@ -35,6 +42,7 @@
   font-size: 35px;
   line-height: 1.5;
   box-shadow: 0px 0px 3px 0px #000000;
+  margin: 0;
 }
 
 .section-git-ramas__caja{
@@ -56,4 +64,27 @@
 
 .section-git-ramas__caja-contenido__master-article__titulo{
   text-transform: capitalize;
+}
+
+
+
+.flexblox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: baseline;
+  align-content: center;
+
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  margin: 15px;
+  border: 1px solid;
+  /*Propiedad que el valor es entre 0 y 1
+   la  cual describe que tan flexible es el elemento
+   1 para 100 porciento y 0 a 0 porciento*/
+  flex-shrink: 0;
 }
