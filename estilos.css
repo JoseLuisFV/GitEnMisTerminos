@@ -87,4 +87,5 @@
    la  cual describe que tan flexible es el elemento
    1 para 100 porciento y 0 a 0 porciento*/
   flex-shrink: 0;
+  background-color: #252c59;
 }
