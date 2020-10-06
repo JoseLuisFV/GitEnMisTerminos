@@ -3,6 +3,16 @@
   box-sizing: border-box;
 }
 
+body{
+  background: #1e1f24;
+  color: #333;
+  text-align: center;
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
 .cabecera{
 
   width: 850px;
@@ -13,7 +23,7 @@
   line-height: 1.5;
   text-transform: uppercase;
   background-color: #252c59;
-  border-radius: 15px;
+  border-radius: 0px 15px;
   padding: 20px;
   color: #c76b4a;
   font-family: sans-serif;
