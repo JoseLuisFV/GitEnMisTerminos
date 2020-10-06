@@ -89,3 +89,10 @@
   flex-shrink: 0;
   background-color: #252c59;
 }
+
+.footer{
+  background: #777;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
